@@ -1,0 +1,66 @@
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  background-color: khaki;
+  border-radius: 10px;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__headline {
+    margin-bottom: 16px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  &__radio-group-wrapper {
+    margin-bottom: 8px;
+    padding-block: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 12px;
+    .form__radio-label {
+      display: flex;
+      column-gap: 8px;
+      color: black;
+      font-size: 20px;
+    }
+  }
+  &__select-fruit {
+    margin-bottom: 16px;
+    color: black;
+    font-size: 20px;
+  }
+  &__fruit-str-input {
+    margin-bottom: 16px;
+    color: black;
+    font-size: 20px;
+  }
+  &__error-text {
+    margin-bottom: 2px;
+    color: red;
+    font-size: 20px;
+  }
+  &__sumbit-btn {
+    margin-top: 24px;
+    align-self: center;
+    max-width: 294px;
+    width: 100%;
+    padding: 11px 32px;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
